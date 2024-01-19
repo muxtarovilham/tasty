@@ -1,0 +1,487 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+header .booktable {
+  position: absolute;
+  bottom: 0%;
+  width: 80%;
+  height: 147px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: orange;
+  flex-wrap: wrap;
+}
+header .booktable input {
+  width: 170px;
+  height: 55px;
+  border: 1px solid black;
+  padding: 7px;
+  background-color: orange;
+}
+header .words {
+  position: absolute;
+  top: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 33px;
+  text-align: center;
+}
+header .words h1 {
+  color: white;
+  font-family: italic;
+  font-size: 55px;
+  width: 71%;
+}
+header .words button {
+  width: 190px;
+  height: 60px;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+}
+header .words button:hover {
+  background-color: white;
+  color: rgb(80, 80, 80);
+}
+header .image {
+  width: 100%;
+  height: 650px;
+}
+header nav {
+  padding: 24px;
+  position: absolute;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .droppe {
+  display: none;
+}
+header nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  gap: 33px;
+}
+header nav .menu ul li a {
+  font-size: 16px;
+  color: gray;
+  text-decoration: none;
+}
+header nav .tasty {
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 21px;
+  padding-top: 21px;
+}
+main .proo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+main .proo .buttons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 14px;
+  width: 90%;
+  height: auto;
+}
+main .proo .buttons button {
+  width: 66px;
+  height: 27px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  transition: background-color 0.4s ease;
+  font-weight: 600;
+}
+main .proo .buttons button:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+main .proo #formSearch {
+  width: 66%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .proo #formSearch button {
+  width: 99px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  transition: background-color 0.4s ease;
+  font-weight: 600;
+}
+main .proo #formSearch button:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+main .proo #formSearch input {
+  width: 20%;
+  height: 40px;
+  padding: 7px;
+  border: 2px solid black;
+}
+main .proo #load {
+  width: 188px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  transition: background-color 0.4s ease;
+  font-weight: 600;
+}
+main .proo #load:hover {
+  background-color: white;
+  color: black;
+}
+main .proo #product {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+main .proo #product .boxForm {
+  width: 24%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 14px;
+  border: 2px solid gainsboro;
+  padding: 7px;
+}
+main .proo #product .boxForm .butons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+}
+main .proo #product .boxForm .butons .add {
+  width: 99px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  transition: background-color 0.4s ease;
+  font-weight: 600;
+}
+main .proo #product .boxForm .butons .add:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+main .proo #product .box {
+  width: 14%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 14px;
+}
+main .proo #product .box img {
+  width: 100%;
+  height: auto;
+}
+main .proo #product .box .butons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+}
+main .proo #product .box .butons .wish {
+  border: none;
+  background-color: transparent;
+  color: black;
+  transition: color 0.4s ease;
+  font-size: 21px;
+}
+main .proo #product .box .butons .wish:hover {
+  color: red;
+}
+main .proo #product .box .butons .add {
+  width: 99px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  transition: background-color 0.4s ease;
+  font-weight: 600;
+}
+main .proo #product .box .butons .add:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+main .blog {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+}
+main .blog .recent {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 14px;
+}
+main .blog .recent img {
+  width: 100%;
+  height: 100%;
+}
+main .blog .recent .read {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+main .blog .recent .read .comment {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 7px;
+}
+main .blog .recent .read .comment p {
+  color: gray;
+  display: contents;
+}
+main .blog .recent .read .comment i {
+  color: gray;
+  display: contents;
+}
+main .blog .recent h2 {
+  font-size: 21px;
+}
+main .blog h1 {
+  font-size: 33px;
+  color: rgb(73, 73, 73);
+}
+main .blog p {
+  font-size: 14px;
+  color: gainsboro;
+}
+main .guest {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+}
+main .guest .far {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  margin: 33px;
+  text-align: center;
+}
+main .guest .far img {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+}
+main .guest .far .stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+main .guest .far .stars i {
+  color: orange;
+  font-size: 10px;
+}
+main .guest .far span {
+  color: rgb(71, 71, 71);
+  font-size: 18px;
+  font-family: italic;
+}
+main .guest h1 {
+  color: rgb(68, 68, 68);
+  font-family: italic;
+}
+main .guest p {
+  font-family: italic;
+  color: gray;
+}
+main .guest small {
+  font-family: italic;
+  font-size: 16px;
+  color: rgb(199, 199, 199);
+}
+main .man {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 21px;
+}
+main .man span {
+  color: gray;
+}
+main .man h1 {
+  font-size: 40px;
+  color: rgb(92, 92, 92);
+  font-weight: 400;
+}
+main .man p {
+  color: gainsboro;
+}
+main .man img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+  background-color: #27272B;
+  padding: 14px;
+}
+footer .tast {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 14px;
+}
+footer .tast .iconz {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+footer .tast .iconz i {
+  border-radius: 50%;
+  background-color: rgb(146, 146, 146);
+  color: white;
+  padding: 14px;
+  font-size: 21px;
+}
+footer .tast p {
+  color: gray;
+}
+footer .tast h1 {
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  header .booktable {
+    height: 181px;
+    bottom: 10%;
+  }
+  header .words h1 {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header .booktable {
+    display: none;
+  }
+  header nav {
+    background-color: gray;
+    width: 100%;
+  }
+  header nav .droppe {
+    display: block;
+  }
+  header nav .menu {
+    display: none;
+  }
+  main .man h1 {
+    font-size: 21px;
+  }
+  main .proo #product .box {
+    width: 24%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  main .proo #product {
+    flex-direction: column;
+  }
+  main .proo #product .box {
+    width: 66%;
+  }
+}
